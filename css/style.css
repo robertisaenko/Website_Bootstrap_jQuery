@@ -1,0 +1,1320 @@
+@font-face {
+    font-family: "Myriad-Pro";
+    src: url(http://www.anaveer.in/honda/font/MYRIADPRO-REGULAR.OTF) format("truetype");
+}
+
+* {
+    border-width: 0;
+}
+
+.row {
+    padding: 0 15px;
+}
+
+.container-nav {
+    position: absolute;
+    max-width: 1920px;
+    padding: 0 345px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.container-x {
+    width: 64%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.container-carousel {
+    margin-bottom: 2.5rem;
+}
+
+.carousel-arrow {
+    max-width: 5rem;
+    max-height: 4.5625;
+}
+
+.container-for-grid {
+    margin: 2.5rem 0;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 0.875rem;
+    color: #fff;
+    font-family: 'Myriad Pro';
+    margin: 0 19px;
+    padding: 0;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #aa9985;
+}
+
+.navbar .navbar-nav .nav-link:active {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: #aa9985;
+}
+
+.navbar {
+    padding: 2.5rem 1.0625rem 0 1.875rem;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.navbar-collapse {
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+}
+
+.navbar-toggler-icon {
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.carousel-indicators {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.carousel-indicators li {
+    width: 11px;
+    height: 11px;
+    margin: 0 5px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.5);
+    border: 0;
+}
+
+.carousel-indicators .active {
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid #d3c1ad;
+    opacity: 0.5;
+}
+
+.carousel-indicators {
+    margin-bottom: 2.625rem;
+}
+
+.navbar .navbar-nav .nav-link-last {
+    margin-right: 0;
+}
+
+.carousel-caption {
+    top: 37%;
+    padding: 0;
+    width: 64%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carousel-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.carousel-p {
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    width: 46%;
+}
+
+.carousel-caption h1 {
+    margin-bottom: 0;
+    font-family: 'Raleway';
+    font-size: 2.25rem;
+    font-weight: 900;
+}
+
+.carousel-caption h2 {
+    font-family: 'Raleway', arial;
+    font-size: 3.25rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.carousel-caption p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.btn {
+    font-family: 'Raleway', arial;
+    font-weight: bold;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #fff;
+    background: #998675;
+    border-radius: 0.1875rem;
+    -webkit-box-shadow: 0 3px #736357;
+    box-shadow: 0 3px #736357;
+}
+
+.btn-start {
+    margin-top: 3.4375rem;
+    padding: 1.3125rem 2.4375rem 1.3125rem 2.3125rem;
+}
+
+.btn-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.btn:hover {
+    color: #f6f2f2;
+    background: #887768;
+}
+
+.carousel-arrow-left {
+    margin-left: 5rem;
+}
+
+.carousel-arrow-right {
+    margin-right: 5rem;
+}
+
+html,
+body {
+    height: 100%;
+    max-width: 1920px;
+    margin: auto;
+}
+
+.col {
+    padding: 0 30px;
+}
+
+.container-services {
+    width: 64%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+
+.service-h1 {
+    font-size: 1.375rem;
+    font-family: "Raleway";
+    font-weight: 900;
+    color: #555;
+}
+
+.service {
+    text-align: center;
+}
+
+.service:hover {
+    cursor: pointer;
+}
+
+.service:hover>h1 {
+    color: #c7b299;
+}
+
+.service-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    color: #8c8c8c;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.service-img {
+    padding: 1.75rem;
+}
+
+.container-waxom-general {
+    background: #fbfaf8;
+    margin-bottom: 0;
+}
+
+.container-waxom {
+    width: 64%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.col-waxom {
+    padding: 0;
+}
+
+.waxom-text {
+    text-align: center;
+    padding-bottom: 2.75rem;
+}
+
+.waxom-h1 {
+    font-family: "Raleway";
+    font-weight: 900;
+    font-size: 1.875rem;
+    color: #555555;
+}
+
+.waxom-p {
+    font-family: 'Montserrat', sans-serif;
+    color: #8c8c8c;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.container-waxom {
+    padding-top: 5.25rem;
+}
+
+.container-waxom-img {
+    padding-top: 0;
+}
+
+.container-gradient {
+    background: rgb(33, 27, 25);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(33, 27, 25, 1)), to(rgba(78, 52, 39, 1)));
+    background: -webkit-linear-gradient(left, rgba(33, 27, 25, 1) 0%, rgba(78, 52, 39, 1) 100%);
+    background: -o-linear-gradient(left, rgba(33, 27, 25, 1) 0%, rgba(78, 52, 39, 1) 100%);
+    background: linear-gradient(90deg, rgba(33, 27, 25, 1) 0%, rgba(78, 52, 39, 1) 100%);
+    margin: 0;
+    height: 9.375rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.container-text-boxes {
+    width: 64%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.textbox {
+    color: #fff;
+}
+
+.textbox-h2 {
+    font-size: 1.625rem;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0.625rem;
+}
+
+.textbox-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.125rem;
+    color: #5b524f;
+    margin-bottom: 0;
+}
+
+.waxom-word {
+    color: #c7b299;
+}
+
+.purchase-btn {
+    font-family: "Raleway";
+    font-weight: 900;
+    font-size: 0.875rem;
+    padding: 1.1875rem 1.8125rem 1.0625rem 1.75rem;
+}
+
+.projects-h1 {
+    font-family: "Raleway";
+    font-weight: 900;
+    font-size: 1.875rem;
+    color: #555;
+    text-align: center;
+}
+
+.projects-textbox {
+    background: #fbfaf8;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 1.875rem;
+}
+
+.projects-textbox {
+    position: relative;
+}
+
+.projects-textbox>.projects-arrow {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 1.5rem;
+    top: -0.625rem;
+    width: 0;
+    height: 0;
+    border-left: 0.875rem solid transparent;
+    border-right: 0.875rem solid transparent;
+    border-bottom: 11px solid #fbfaf8;
+}
+
+.projects-block-container:hover>.projects-textbox {
+    background-color: #362f2d;
+}
+
+.projects-block-container:hover>.projects-textbox>.projects-textbox-h1 {
+    color: #fff;
+}
+
+.projects-block-container:hover>.projects-textbox>.projects-textbox-p {
+    color: #c7b299;
+}
+
+.projects-block-container:hover>.projects-textbox>.projects-arrow {
+    border-bottom: 11px solid #362f2d;
+}
+
+.projects-textbox-h1 {
+    font-family: "Raleway";
+    font-size: 1.25rem;
+    color: #c7b299;
+    margin-bottom: 0.875rem;
+}
+
+.projects-textbox-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    color: #d1d1d1;
+    padding-bottom: 1.6875rem;
+    margin-bottom: 0;
+}
+
+.container-blocks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    margin-bottom: 2.5rem;
+}
+
+.projects-block-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 1.875rem;
+    max-width: 23.135rem;
+}
+
+.projects-container-img {
+    position: relative;
+    margin-bottom: -4px;
+    width: 100%;
+}
+
+.blocks-icons {
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-flow: row-reverse;
+    flex-flow: row-reverse;
+    opacity: 0;
+    z-index: 1;
+}
+
+.block-loupe {
+    margin-left: 0.875rem;
+}
+
+.block-link-icon {
+    margin-right: 0.875rem;
+}
+
+.content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+}
+
+.projects-block-container:hover {
+    cursor: pointer;
+}
+
+.projects-block-container:hover>.projects-container-img>.content-overlay {
+    opacity: 1;
+}
+
+.projects-block-container:hover>.projects-container-img>.blocks-icons {
+    opacity: 1;
+}
+
+.projects-img {
+    width: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.projects-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+}
+
+.projects-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    color: #8c8c8c;
+}
+
+.projects-load-btn {
+    padding: 1.1875rem 2.8125rem 1.0625rem 2.75rem;
+}
+
+.flex-flow-col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+}
+
+.btn-group-projects {
+    padding: 0 0.3125rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.btn-projects {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    text-transform: none;
+    border: 1px solid #ebebeb;
+    color: #9e9e9e;
+    background-color: #fff;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: auto;
+    margin: 0 0.3125rem;
+}
+
+.btn-projects-1 {
+    padding: 0.6875rem 1.6875rem 0.6875rem 1.625rem;
+}
+
+.btn-projects-2 {
+    padding: 0.625rem 1.125rem 0.625rem 1.0625rem;
+}
+
+.btn-projects-3 {
+    padding: 0.625rem 1.25rem 0.625rem 1.25rem;
+}
+
+.btn-projects-4 {
+    padding: 0.5625rem 1.4375rem 0.625rem 1.4375rem;
+}
+
+.btn-projects-5 {
+    padding: 0.5625rem 1.375rem 0.4375rem 1.4375rem;
+}
+
+.container-projects-menu {
+    margin-bottom: 2.5rem;
+}
+
+.iphone-h1 {
+    font-family: "Raleway";
+    font-weight: 900;
+    font-size: 1.875rem;
+    color: #555;
+}
+
+.iphone-p,
+.iphone-feature-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: #8c8c8c;
+}
+
+.iphone-feature-p {
+    margin: 0;
+    padding-left: 1.875rem;
+    padding: 0.625rem 0 0.625rem 1.875rem;
+}
+
+.container-iphone {
+    background-color: #fbfaf8;
+    padding-top: 4.625rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.iphone-features {
+    margin-left: 2.4375rem;
+}
+
+.iphone-feature {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.iphone-textbox {
+    margin-top: 7.25rem;
+}
+
+.container-partners {
+    background: transparent url("../img/bg-partners.png") no-repeat top center;
+    background-size: cover;
+    height: 30.625rem;
+    max-width: 120rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.images-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.img-container {
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+}
+
+.container-footer {
+    background: #111;
+    margin: 0;
+    margin-top: -0.0625rem;
+    height: 6.5625rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.footer-copyright-p,
+.footer-designed-p {
+    color: #555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8125rem;
+    margin: 0;
+}
+
+.footer-row-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.footer-designed {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.footer-designed-color {
+    color: #959595;
+}
+
+.footer-hover:hover {
+    color: #c7b299;
+}
+
+.container-counters {
+    background: rgb(33, 27, 25);
+    background: -webkit-gradient(linear, left top, right top, from(rgba(33, 27, 25, 1)), to(rgba(78, 52, 39, 1)));
+    background: -webkit-linear-gradient(left, rgba(33, 27, 25, 1) 0%, rgba(78, 52, 39, 1) 100%);
+    background: -o-linear-gradient(left, rgba(33, 27, 25, 1) 0%, rgba(78, 52, 39, 1) 100%);
+    background: linear-gradient(90deg, rgba(33, 27, 25, 1) 0%, rgba(78, 52, 39, 1) 100%);
+    margin: 0;
+    height: 18.75rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.counters-p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #c7b299;
+    margin-bottom: 1.875rem;
+}
+
+.counters-number {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 0.625rem;
+    padding: 0;
+}
+
+.counters-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column;
+    flex-flow: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.counters-img {
+    margin-bottom: 1.1875rem;
+}
+
+.display-none {
+    display: none;
+}
+
+.carousel-img {
+    max-height: 100vh;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1700px) {
+    .container-services,
+    .container-x,
+    .container-text-boxes {
+        width: 75%;
+    }
+    .carousel-caption {
+        top: 30%;
+    }
+    .purchase-btn {
+        padding: 0.6rem 0.9rem;
+        font-size: 0.7rem;
+    }
+    .container-gradient {
+        height: 8.5rem;
+    }
+    .btn-projects {
+        padding: 0.5rem 1rem;
+    }
+    .container-partners {
+        height: 20rem;
+    }
+    .container-footer {
+        height: 5rem;
+    }
+    .textbox-h2 {
+        font-size: 1.4rem;
+    }
+    .textbox-p {
+        font-size: 1rem;
+    }
+    .counters-number {
+        font-size: 2.5rem;
+    }
+    .iphone-features {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1430px) {
+    .container-x,
+    .container-text-boxes,
+    .container-services,
+    .container-waxom {
+        width: 85%;
+    }
+    .btn-start {
+        margin-top: 2rem;
+    }
+    .textbox-h2 {
+        font-size: 1.3rem;
+    }
+    .iphone-textbox {
+        margin-top: 4rem;
+    }
+    .counters-number {
+        font-size: 2.3rem;
+    }
+    .btn-start {
+        padding: 0.65rem 1.2rem;
+    }
+    .navbar__img {
+        max-width: 5.6875rem;
+        max-height: 1.71875rem;
+    }
+    .navbar {
+        padding: 2rem 0 0 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container-services {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+    .service-p {
+        font-size: 0.6rem;
+    }
+    .service-h1 {
+        font-size: 1rem;
+    }
+    .service-img {
+        padding: 1rem;
+    }
+    .carousel-caption h2 {
+        font-size: 2.75rem;
+    }
+    .carousel-caption h1 {
+        font-size: 1.8rem;
+    }
+    .carousel-caption p {
+        font-size: 0.7rem;
+    }
+    .navbar .navbar-nav .nav-link,
+    .btn-start {
+        font-size: 0.625rem;
+    }
+    .container-partners {
+        height: 15rem;
+    }
+    .projects-h1,
+    .waxom-h1 {
+        font-size: 1.4rem;
+    }
+    .projects-p,
+    .waxom-p,
+    .iphone-p,
+    .iphone-feature-p {
+        font-size: 0.8rem;
+    }
+    .projects-p {
+        width: 60%;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    }
+    .textbox-p {
+        font-size: 0.9rem;
+    }
+    .container-gradient {
+        height: 8rem;
+    }
+    .purchase-btn {
+        font-size: 0.625rem;
+    }
+    .carousel-arrow {
+        max-height: 2.28125rem;
+        max-width: 2.5rem;
+    }
+    .container-counters {
+        height: 15rem;
+    }
+    .counters-number {
+        font-size: 2rem;
+    }
+    .counters-p {
+        font-size: 0.7rem;
+        margin-bottom: 1.7rem;
+    }
+    .container-iphone {
+        padding-top: 4rem;
+    }
+    .iphone-textbox {
+        margin-top: 2rem;
+    }
+    .iphone-feature-p {
+        padding: 0.5rem 0 0.7rem 1rem;
+    }
+    .container-blocks {
+        margin-bottom: 0.5rem;
+    }
+    .carousel-indicators li {
+        height: 9px;
+        width: 9px;
+    }
+    .footer-row-container {
+        width: 95%;
+    }
+    .footer-copyright-p,
+    .footer-designed-p {
+        font-size: 0.625rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container-x,
+    .container-text-boxes {
+        width: 95%;
+    }
+    .carousel-caption {
+        top: 35%;
+    }
+    .carousel-caption h2 {
+        font-size: 2rem;
+    }
+    .carousel-caption h1 {
+        font-size: 1.3rem;
+    }
+    .carousel-caption p {
+        font-size: 0.7rem;
+    }
+    .btn-start {
+        margin-top: 1rem;
+    }
+    .container-waxom {
+        padding-top: 1.7rem;
+    }
+    .waxom-text {
+        padding-bottom: 0;
+    }
+    .counters-number {
+        font-size: 1.4rem;
+    }
+    .counters-img {
+        margin-bottom: 1rem;
+    }
+    .counters-p {
+        margin-bottom: 1.4rem;
+    }
+    .counters-img {
+        max-height: 1.875rem;
+        max-width: 1.875rem;
+    }
+    .container-counters {
+        height: 12rem;
+    }
+    .container-iphone {
+        padding-top: 2rem;
+    }
+    .iphone-textbox {
+        margin-top: 0;
+    }
+    .iphone-h1 {
+        font-size: 1.6rem;
+    }
+    .iphone-feature-p,
+    .iphone-p {
+        font-size: 0.7rem;
+    }
+    .iphone-feature-p {
+        padding: 0.4rem 0 0.6rem 1rem;
+    }
+    .projects-textbox-h1 {
+        font-size: 1rem;
+    }
+    .projects-textbox-p {
+        font-size: 0.6rem;
+    }
+    .carousel-arrow-left {
+        margin: 0;
+        padding-left: 1%;
+    }
+    .carousel-arrow-right {
+        margin: 0;
+        padding-right: 1%;
+    }
+    .collapsing {
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+        display: none;
+    }
+    .navbar-collapse {
+        position: absolute;
+        bottom: -3rem;
+        right: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-x,
+    .container-text-boxes {
+        width: 100%;
+    }
+    .container-navbar-width {
+        width: 95%;
+    }
+    .navbar {
+        padding-top: 0.7rem;
+    }
+    .carousel-caption {
+        top: 32%;
+    }
+    .carousel-caption h2 {
+        font-size: 1.4rem;
+    }
+    .carousel-caption h1 {
+        font-size: 1rem;
+    }
+    .carousel-p {
+        width: 60%;
+    }
+    .carousel-caption p {
+        font-size: 0.65rem;
+    }
+    .btn-start {
+        padding: 0.5rem 0.8rem;
+    }
+    .carousel-indicators {
+        margin-bottom: 2rem;
+    }
+    .carousel-indicators li {
+        height: 7px;
+        width: 7px;
+    }
+    .carousel-indicators .active {
+        border: 1px solid #d3c1ad;
+    }
+    .btn-container {
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+    .textbox-h2 {
+        font-size: 1.1rem;
+    }
+    .textbox-p {
+        font-size: 0.7rem;
+    }
+    .btn-projects {
+        font-size: 0.625rem;
+        padding: 0.4rem 0.9rem;
+    }
+    .container-gradient {
+        height: 6.2rem;
+    }
+    .counters-p {
+        font-size: 0.4rem;
+        margin-bottom: 1rem;
+    }
+    .counters-number {
+        font-size: 1.1rem;
+    }
+    .counters-img {
+        height: 1.875rem;
+        width: 1.875rem;
+    }
+    .iphone-h1 {
+        font-size: 1.2rem;
+    }
+    .iphone-feature-p,
+    .iphone-p {
+        font-size: 0.625rem;
+    }
+    .iphone-feature img {
+        width: 1rem;
+        height: 1rem;
+    }
+    .iphone-feature-p {
+        padding: 0.3rem 0 0.3rem 0.5rem;
+    }
+    .projects-load-btn {
+        padding: 1rem 2.2rem;
+    }
+    .navbar-collapse {
+        right: 4rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .carousel-arrow-left {
+        padding-left: 1%;
+        margin: 0;
+    }
+    .carousel-arrow-right {
+        padding-right: 1%;
+        margin: 0;
+    }
+    .navbar__img {
+        height: 0.859375rem;
+        width: 2.84375rem;
+    }
+    .navbar-toggler {
+        font-size: 0.75rem;
+        padding: 0.25rem 0.4rem;
+    }
+    .carousel-arrow {
+        max-width: 1.875rem;
+        max-height: 1.6875rem;
+    }
+    .carousel-caption h1 {
+        font-size: 0.7rem;
+    }
+    .carousel-caption h2 {
+        font-size: 1rem;
+    }
+    .carousel-caption p {
+        font-size: 0.5rem;
+    }
+    .btn-start {
+        margin-top: 0.5rem;
+        font-size: 0.4rem;
+        padding: 0.35rem 0.65rem;
+    }
+    .carousel-indicators {
+        margin-bottom: 1rem;
+    }
+    .container-about-us {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    .iphone-textbox {
+        margin-top: 2rem;
+    }
+    .iphone-h1 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .iphone-p,
+    .iphone-feature-p {
+        font-size: 0.8rem;
+    }
+    .iphone-feature-p {
+        padding: 0.4rem 0 0.6rem 1rem;
+    }
+    .iphone-features {
+        margin-bottom: 1rem;
+    }
+    .btn-projects {
+        padding: 0.2rem 0.6rem;
+        font-size: 0.4rem;
+    }
+    .counters-img {
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+    .counters-block {
+        padding: 1rem 0.5rem;
+    }
+    .container-counters-flex {
+        padding: 0 0.5rem;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    .container-counters {
+        width: 100%;
+        height: auto;
+        padding: 1rem 0;
+    }
+    .imgs-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    .partners-logo {
+        padding: 1rem 0;
+        -o-object-fit: contain;
+        object-fit: contain;
+    }
+    .container-partners {
+        height: auto;
+    }
+    .footer-row-container {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    .footer-copyright-p {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+    .navbar-collapse {
+        right: 2rem;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .carousel-arrow {
+        max-width: 0.9375rem;
+        max-height: 0.84375rem;
+    }
+    .carousel-caption {
+        width: 70%;
+    }
+    .carousel-caption h2 {
+        font-size: 0.7rem;
+    }
+    .carousel-caption h1 {
+        font-size: 0.5rem;
+    }
+    .carousel-caption p {
+        font-size: 0.35rem;
+    }
+    .btn-start {
+        font-size: 0.4rem;
+        padding: 0.3rem 0.5rem;
+    }
+    .carousel-indicators li {
+        height: 5px;
+        width: 5px;
+        margin: 0 3px;
+    }
+    .textbox-h2 {
+        font-size: 0.8rem;
+    }
+    .textbox-p {
+        font-size: 0.6rem;
+    }
+    .navbar-collapse {
+        right: 1rem;
+        font-size: 0.35rem;
+    }
+}
